@@ -1,0 +1,14 @@
+name: ArchiveSearchWarps
+version: '${version}'
+main: archive.searchwarps.ArchiveSearchWarps
+description: GUI-based warp search and browser for WarpSystem
+api-version: '${api_version}'
+authors:
+  - thearchive.world
+
+dependencies:
+  server:
+    WarpSystem:
+      load: BEFORE
+      required: true
+      join-classpath: true

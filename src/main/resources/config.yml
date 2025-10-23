@@ -1,0 +1,5 @@
+# Path to WarpSystem's data folder
+warpsystem_data_folder: "plugins/WarpSystem/Memory"
+
+# ActionIcons file name
+actionicons_file: "ActionIcons.yml"
